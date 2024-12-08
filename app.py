@@ -6,6 +6,7 @@ import streamlit as st
 # Загрузка переменных окружения
 load_dotenv()
 
+
 # Установка ключа OpenAI API
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
